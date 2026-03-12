@@ -1,0 +1,12 @@
+SDS_PROXY_IP="70.10.15.10"
+SDS_PROXY_PORT="8080"
+SDS_CA="/usr/local/share/ca-certificates/SDS.crt"
+SDS_NEXUS_IP=70.121.224.52
+
+DEFAULT_NO_PROXY="localhost,127.0.0.1,::1,*.local"
+# SDS_NO_PROXY=".sdsdev.co.kr,.samsung.net,.samsungsds.com"
+# SCP_NO_PROXY=".scr.skr-west.samsungsdscloud.com"
+# DOCKER_NO_PROXY="70.0.0.0/8,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
+# MINIKUBE_NO_PROXY="10.96.0.0/12,192.168.58.0/24,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24"
+
+NO_PROXY="$DEFAULT_NO_PROXY"

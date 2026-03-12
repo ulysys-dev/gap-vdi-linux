@@ -1,0 +1,6 @@
+allow-insecure-host = [
+"pypi.python.org",
+"pypi.org",
+"files.pythonhosted.org",
+"github.com"
+]

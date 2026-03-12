@@ -1,0 +1,5 @@
+[http]
+    proxy = http://70.10.15.10:8080
+    # sslCAInfo = /etc/ssl/certs/ca-certificates.crt
+[core]
+    editor = vim
