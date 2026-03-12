@@ -3,3 +3,6 @@
     # sslCAInfo = /etc/ssl/certs/ca-certificates.crt
 [core]
     editor = vim
+[user]
+	name = ulysys.dev
+	email = ulysys.dev@gmail.com
