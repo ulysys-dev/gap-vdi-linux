@@ -202,15 +202,15 @@ EOF
 # main
 #------------------------------------------------------
 set_wsl_options
-set_cert_for_os
-set_locale
-set_openssl
-set_apt_proxy
-set_default_profile
-set_bash
-set_curl
-set_git
-set_uv
-set_npm
+# set_cert_for_os
+# set_locale
+# set_openssl
+# set_apt_proxy
+# set_default_profile
+# set_bash
+# set_curl
+# set_git
+# set_uv
+# set_npm
 
 exit $?

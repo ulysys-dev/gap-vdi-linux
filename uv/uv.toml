@@ -1,6 +1,13 @@
+http-proxy = "http://70.10.15.10:8080"
+https-proxy = "http://70.10.15.10:8080"
+no-proxy = ["localhost", "127.0.0.1"]
+
+native-tls = true
+
 allow-insecure-host = [
 "pypi.python.org",
 "pypi.org",
 "files.pythonhosted.org",
 "github.com"
 ]
+
