@@ -1,3 +1,5 @@
 https-proxy=http://70.10.15.10:8080
 http-proxy=http://70.10.15.10:8080
 # cafile=/etc/ssl/certs/ca-certificates.crt
+strict-ssl=false
+rejectUnauthorized=false
