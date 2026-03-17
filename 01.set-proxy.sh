@@ -56,6 +56,7 @@ export NO_PROXY="${NO_PROXY}"
 export WS_PROXY="${HTTP_PROXY}"
 export WSS_PROXY="${HTTPS_PROXY}"
 EOF
+    sudo chmod +x ${PROFILE_CONF}
 }
 
 set_openssl() {
@@ -206,7 +207,7 @@ set_wsl_options
 # set_locale
 # set_openssl
 # set_apt_proxy
-# set_default_profile
+set_default_profile
 # set_bash
 # set_curl
 # set_git
