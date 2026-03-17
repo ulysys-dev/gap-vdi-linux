@@ -55,6 +55,9 @@ export NO_PROXY="${NO_PROXY}"
 
 export WS_PROXY="${HTTP_PROXY}"
 export WSS_PROXY="${HTTPS_PROXY}"
+
+export SSL_CERT_FILE="/etc/ssl/certs/ca-certificates.crt"
+export REQUESTS_CA_BUNDLE="/etc/ssl/certs/ca-certificates.crt"
 EOF
     sudo chmod +x ${PROFILE_CONF}
 }
