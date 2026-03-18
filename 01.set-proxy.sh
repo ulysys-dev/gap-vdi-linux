@@ -103,7 +103,8 @@ set_curl() {
     fi
 
     tee ${SET_CONF}> /dev/null <<EOF
-# cacert=/etc/ssl/certs/ca-certificates.crt
+proxy=http://${SDS_PROXY_IP}:${SDS_PROXY_PORT}
+cacert=/etc/ssl/certs/ca-certificates.crt
 # ciphers DEFAULT#SECLEVEL=1
 EOF
     ln -s ${SET_CONF} ${TGT_CONF}
