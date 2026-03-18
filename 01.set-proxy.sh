@@ -196,9 +196,10 @@ set_npm() {
     fi
 
     tee ${SET_CONF}> /dev/null <<EOF
+proxy=http://${SDS_PROXY_IP}:${SDS_PROXY_PORT}
 https-proxy=http://${SDS_PROXY_IP}:${SDS_PROXY_PORT}
-http-proxy=http://${SDS_PROXY_IP}:${SDS_PROXY_PORT}
-# cafile=/etc/ssl/certs/ca-certificates.crt
+cafile=/etc/ssl/certs/ca-certificates.crt
+strict-ssl=false
 EOF
     ln -s ${SET_CONF} ${TGT_CONF}
 }
